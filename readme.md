@@ -4,13 +4,15 @@
 ```bash
 python3 -m pip install boto3
 ```
-2. cd into the 'my_lambda' folder and run this command to install the dependencies
+
+2. Run the services.py file to create the differemt AWS resources 
     ```bash
-       python3 pip install -r /Users/phreetech13/Desktop/python-project/serverless-movie-api/my_lambda/requirements.txt -t .
+    python3 services.py
     ```
-3. Package your lambda-function.py file in a zip folder and include the reg
+
+3. cd into the 'my_lambda' folder and run this command to install the dependencies
     ```bash
-    pip install -r requirements.txt
+       pip install -r requirements.txt
     ```
 
 4. Once you have all your files and dependencies in the same directory, you can create a ZIP file.
