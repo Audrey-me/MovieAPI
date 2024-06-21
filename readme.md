@@ -1,5 +1,22 @@
-## Steps to Follow
 
+## File Descriptions
+1. color.py:
+   Contains definitions for color-coded messages.
+
+2. movies.json:
+- JSON file containing movie data.
+- Used to upload initial data to DynamoDB.
+
+3. services.py:
+- Contains functions to create and manage AWS resources (S3, DynamoDB).
+- Includes functions to upload data to DynamoDB.
+
+4. lambda_function.py:
+- The main Lambda function handler.
+- Processes requests routed by API Gateway.
+- Interacts with DynamoDB to fetch and manipulate movie data.
+
+## Steps to Follow
 1. Install AWS SDK (Boto3) to write your code locally
 ```bash
 python3 -m pip install boto3
