@@ -24,7 +24,7 @@
 - Used to upload initial data to DynamoDB.
 
 3. services.py:
-- Contains functions to create and manage AWS resources (S3, DynamoDB).
+- Contains functions to create and manage AWS resources (S3, DynamoDB, Lamba function,API Gateway).
 - Includes functions to upload data to DynamoDB.
 
 4. lambda_function.py:
@@ -33,5 +33,5 @@
 - Interacts with DynamoDB to fetch and manipulate movie data.
 
 ## Steps to Follow
-Check this article []
+Check this article : [Building Serverless API using AWS Boto3](https://audrey01.hashnode.dev/building-serverless-api-using-aws-boto3)
 

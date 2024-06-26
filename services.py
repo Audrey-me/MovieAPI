@@ -233,14 +233,14 @@ def create_api_gateway(lambda_arn, region_name):
 
 # Main function to execute all steps with user alerts
 def main():
-    # create_s3()
-    # input("Press Enter to continue...")
+    create_s3()
+    input("Press Enter to continue...")
 
-    # create_dynamodb()
-    # input("Press Enter to continue...")
+    create_dynamodb()
+    input("Press Enter to continue...")
 
-    # upload_data_to_dynamodb('movies.json', 'Movies-API')
-    # input("Press Enter to continue...")
+    upload_data_to_dynamodb('movies.json', 'Movies-API')
+    input("Press Enter to continue...")
 
     region_name = "us-west-2"
     role_arn = input(f"{color.YELLOW}Please enter the ARN of the IAM role created in the AWS console: {color.RESET}")
